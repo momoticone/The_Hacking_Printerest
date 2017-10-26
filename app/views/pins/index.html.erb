@@ -1,0 +1,68 @@
+<H1>The Hacking Printerest !</H1>
+
+<div class="center jumbotron">
+    <h2>Ajouter une photo</h2>
+
+  <p>
+  Binvenue dans The Hacking Printerest
+      ajoute ta photo et laisse la etre commenté.
+  </p>
+<%= form_tag '/new', multipart: true do %>
+  <label for="file">File to Upload</label> <%= file_field_tag "file" %>
+  <%= submit_tag %>
+<% end %>
+    
+    
+ 
+  
+</div>
+
+<H1>Laisse des Com's!</H1>
+
+<div class="center jumbotron">
+    <h2>Photo de "user"</h2>
+     <%= link_to image_tag("img.jpeg")%>
+
+  <p>
+  Binvenue dans The Hacking Printerest .
+  </p>
+
+  <%= link_to "Ajouté un commentaire", '#', class: "btn btn-lg btn-primary" %>
+  
+</div>
+
+<div class="center jumbotron">
+    <h2>Photo de "user"</h2>
+    <%= link_to image_tag("img2.jpeg")%>
+
+  <p>
+  Binvenue dans The Hacking Printerest .
+  </p>
+
+  <%= link_to "Ajouté un commentaire", '#', class: "btn btn-lg btn-primary" %>
+  
+</div>
+
+<div class="center jumbotron">
+    <h2>Photo de "user"</h2>
+     <%= link_to image_tag("img4.jpeg")%>
+
+  <p>
+  Binvenue dans The Hacking Printerest .
+  </p>
+
+  <%= link_to "Ajouté un commentaire", '#', class: "btn btn-lg btn-primary" %>
+  
+</div>
+
+<div class="center jumbotron">
+    <h2>Photo de "user"</h2>
+     <%= link_to image_tag("im3.jpeg")%>
+
+  <p>
+  Binvenue dans The Hacking Printerest .
+  </p>
+
+  <%= link_to "Ajouté un commentaire", '#', class: "btn btn-lg btn-primary" %>
+  
+</div>
